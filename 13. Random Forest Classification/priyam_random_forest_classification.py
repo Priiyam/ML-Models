@@ -65,4 +65,5 @@ for i, j in enumerate(np.unique(y_set)):
 plt.title('Random Forest Classification (Test set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
-
+plt.legend()
+plt.show()
